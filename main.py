@@ -7,7 +7,7 @@ def show_home():
     col1, col2 = st.columns([1, 2])
     
     with col1:
-        img = Image.open('img/me.png')
+        img = Image.open('me.png')
         st.image(img, width=300)
     
     with col2:
@@ -43,11 +43,11 @@ def show_dashboard():
     st.title("Dashboard")
     
     st.subheader("Prediksi Ginjal Kronis")
-    grafik1 = Image.open('img/distribusi variabel kategorik.png')
+    grafik1 = Image.open('distribusi variabel kategorik.png')
     st.image(grafik1, caption="Distribusi Variabel Kategorik", width=300)
     
     st.subheader("Prediksi Ginjal Kronis")
-    grafik2 = Image.open('img/distribusi variabel numerik.png')
+    grafik2 = Image.open('distribusi variabel numerik.png')
     st.image(grafik2, caption="Distribusi Variabel Numerik", width=300)
 
 menu = st.sidebar.radio("Menu", ["Home", "Projects", "Dashboard"])
