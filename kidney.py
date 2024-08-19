@@ -1,6 +1,12 @@
 import pickle
 import streamlit as st
 
+st.set_page_config(
+    page_title="Kidney Chronic Prediction",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 model = pickle.load(open('kidney_model.sav', 'rb'))
 
 st.title('Prediksi Penyakit Ginjal Kronis')
