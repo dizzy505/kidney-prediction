@@ -9,7 +9,7 @@ st.set_page_config(
 
 model = pickle.load(open('kidney_model.sav', 'rb'))
 
-st.title('Prediksi Penyakit Ginjal Kronis')
+st.title('Kidney Chronic Prediction')
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
