@@ -21,7 +21,7 @@ def show_home():
         st.markdown("<br>", unsafe_allow_html=True)
         st.subheader("Hi, I'm Irsyad")
         st.write("""
-        I am a seventh year student of Computer Science at Indraprasta PGRI University.
+        I am a fourth year student of Computer Science at Indraprasta PGRI University.
         Possesses strong analytical skills, capable of gathering and processing data, designing strategies and plans based on analyzed data, as well as creating predictive or estimations models from such data.
         Additionally, possesses excellent intrapersonal skills such as adaptability, teamwork, and enthusiasm for learning new things.
         """)
