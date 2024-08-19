@@ -1,7 +1,12 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Portofolio", layout="wide")
+st.set_page_config(
+    page_title="My Portfolio",
+    page_icon="👋",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
 
 def show_home():
     col1, col2 = st.columns([1, 2])
